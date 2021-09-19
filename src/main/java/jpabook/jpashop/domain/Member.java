@@ -10,18 +10,18 @@ import javax.persistence.Id;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+//@Entity
 @Getter @Setter
 public class Member {
 
-    @Id @GeneratedValue
-    @Column(name = "member_id")
-    private Long id;
-
-    private String name;
-
-    private Address address;
-
-    private List<Order> orders = new ArrayList<>();
+//    @Id @GeneratedValue
+//    @Column(name = "member_id")
+//    private Long id;
+//
+//    private String name;
+//
+//    private Address address;
+//
+//    private List<Order> orders = new ArrayList<>();
 
 }
